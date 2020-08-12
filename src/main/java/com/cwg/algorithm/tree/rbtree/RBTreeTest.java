@@ -1,12 +1,12 @@
-package com.cwg.algorithm.btree;
+package com.cwg.algorithm.tree.rbtree;
 
 /**
- * 创建时间：2020-07-30 13:52
+ * 创建时间：2020-08-11 10:20
  *
  * @author 曹文岗
  **/
 
-import com.cwg.algorithm.btree.domain.RBTree;
+import com.cwg.algorithm.tree.rbtree.domain.RBTree;
 
 /**
  * 红黑树(Red-Black Tree，简称R-B Tree)，它一种特殊的二叉查找树。
@@ -25,7 +25,7 @@ import com.cwg.algorithm.btree.domain.RBTree;
  * 第一，特性(3)中的叶子节点，是只为空(NIL或null)的节点。
  * 第二，特性(5)，确保没有一条路径会比其他路径长出俩倍。因而，红黑树是相对是接近平衡的二叉树。
  */
-public class RedBlackTree {
+public class RBTreeTest {
 
     public static void main(String[] args) {
         RBTree<Integer> rbTree = new RBTree<>();
@@ -45,5 +45,4 @@ public class RedBlackTree {
         rbTree.remove(4);
         System.out.println("root is: " + rbTree.getMRoot().getKey());
     }
-
 }

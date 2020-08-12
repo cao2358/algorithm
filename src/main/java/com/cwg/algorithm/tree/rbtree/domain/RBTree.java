@@ -1,4 +1,4 @@
-package com.cwg.algorithm.btree.domain;
+package com.cwg.algorithm.tree.rbtree.domain;
 
 import lombok.Getter;
 
